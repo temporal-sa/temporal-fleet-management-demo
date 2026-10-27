@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <!-- Backend for the fleet UI. Uses the Temporal client for queries, updates, signals, visibility and schedules. -->
+  <ItemGroup>
+    <ProjectReference Include="..\Fleet.Workflows\Fleet.Workflows.csproj" />
+  </ItemGroup>
+</Project>

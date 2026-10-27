@@ -1,0 +1,21 @@
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+insert_final_newline = true
+
+[*.{js,jsx,json,css,html,md,yml,yaml}]
+indent_size = 2
+
+# Temporal workflow files use the .workflow.cs suffix so these overrides only apply to workflow code.
+[*.workflow.cs]
+dotnet_diagnostic.CA1024.severity = none
+dotnet_diagnostic.CA1822.severity = none
+dotnet_diagnostic.CA2007.severity = none
+dotnet_diagnostic.CA2008.severity = none
+dotnet_diagnostic.CA5394.severity = none
+dotnet_diagnostic.CS1998.severity = none
+dotnet_diagnostic.VSTHRD103.severity = none
+dotnet_diagnostic.VSTHRD105.severity = none

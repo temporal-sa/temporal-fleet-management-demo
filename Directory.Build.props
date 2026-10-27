@@ -1,0 +1,12 @@
+<Project>
+  <!-- Shared settings for every .NET project in the repo. -->
+  <PropertyGroup>
+    <!-- net8.0 (LTS) with RollForward so the demo also runs on a machine that only has the .NET 9/10 runtime. -->
+    <TargetFramework>net8.0</TargetFramework>
+    <RollForward>Major</RollForward>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <NoWarn>$(NoWarn);CS1591;CS1998</NoWarn>
+  </PropertyGroup>
+</Project>

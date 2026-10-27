@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+.idea/
+*.user
+node_modules/
+ui/dist/
+.temporal/
+.run/
+.logs/
+TestResults/

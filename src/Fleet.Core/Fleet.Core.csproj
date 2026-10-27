@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Shared domain model, seed data, road network and Temporal naming conventions. -->
+  <ItemGroup>
+    <PackageReference Include="Temporalio" Version="1.*" />
+  </ItemGroup>
+</Project>

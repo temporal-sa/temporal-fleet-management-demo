@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Temporal workflow definitions (Workflows/*.workflow.cs) and activity implementations (Activities/*.cs). -->
+  <ItemGroup>
+    <ProjectReference Include="..\Fleet.Core\Fleet.Core.csproj" />
+    <ProjectReference Include="..\Fleet.Integrations\Fleet.Integrations.csproj" />
+  </ItemGroup>
+</Project>

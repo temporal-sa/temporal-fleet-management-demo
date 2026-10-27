@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- HTTP clients for the systems a fleet operator typically already runs: Salesforce, TMS, telematics, vendors, IVR, Kafka. -->
+  <ItemGroup>
+    <ProjectReference Include="..\Fleet.Core\Fleet.Core.csproj" />
+  </ItemGroup>
+</Project>

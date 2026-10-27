@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <!--
+    Stand-ins for systems a fleet operator typically already runs: Salesforce (REST API), a TMS, a workshop booking portal,
+    an IVR for driver calls, a Kafka topic, and the telematics/ELD stream with anomaly rules (the Flink job).
+    None of this is Temporal code except the small signal bridge in Infrastructure/TemporalBridge.cs.
+  -->
+  <ItemGroup>
+    <ProjectReference Include="..\Fleet.Core\Fleet.Core.csproj" />
+  </ItemGroup>
+</Project>
